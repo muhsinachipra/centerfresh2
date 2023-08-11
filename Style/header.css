@@ -1,0 +1,192 @@
+@font-face {
+    font-family: van;
+    src: url("VAG\ Rounded\ Regular.ttf");
+}
+@font-face {
+    font-family: van-bold;
+    src: url("VAG\ Rounded\ Bold.ttf");
+}
+body{
+    margin: 0;
+    font-family: van;
+
+}
+h3{
+    margin: 0;
+}
+p{
+    margin: 0px;
+}
+.header{
+
+    height: 218px;
+}
+.main-header{
+   background-color: white;
+    height: 140px;
+    margin: 0px 20px;
+    padding: 0px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 75px;
+}
+.right-main-header{
+    display: flex;
+    flex-direction: column;
+    width: 670px;
+}
+.rmh1{
+    display: flex;
+    flex-direction: row;
+    padding-left: 230px;
+}
+.text-boxes input{
+    height: 38px;
+    color: #8a8a8a;;
+    border: 1px solid rgb(206, 204, 204);
+    border-radius: 120px;
+    padding-left: 15px;
+    font-weight: bold;
+    position: relative;
+    
+}
+.arrow{
+    position: absolute;
+    top: 30px;
+    right: 360px;
+    color: red;
+    font-weight: 1000;
+}
+
+
+.rmh1 img{
+    border-radius: 40px;
+    height: 32px;
+    border: 1px solid rgb(206, 204, 204);
+    margin-top: 2px;
+    margin-left: 9px;
+    padding-bottom: 3px;
+}
+.rmh2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 40px;
+    color: rgb(0, 0, 104);
+    margin-top: 25px;
+    position: relative;
+}
+.tip{
+    position: absolute;
+    top: 140px;
+    left: 760px;
+}
+.rmh2 h3{
+    margin-top: -1px;
+}
+.sub-header{
+    background-color: lightslategray;
+    height: 78px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #7f0e74;
+    color: white;
+    padding-left:130px ;
+    padding-right:290px ;
+}
+.tip2{
+    position: absolute;
+    top: 217px;
+    left: 380px;
+
+}
+.sub-header p{
+    font: 30px van-bold;
+    padding-top: 15px;
+}
+.company{
+    background-color: #1474BE;
+    color: white;
+    padding: 0px 104.5px;
+    height: 650px;
+}
+.company-quote{
+    padding: 0px 15px;
+    height: 530px;
+    width: 540px;
+    font: 30px van;
+}
+.company-quote p{
+    margin: 14px 0px 15px;
+}
+.company-quote h3{
+    margin-top: 0;
+    font: 60px van-bold;
+    font-weight: 1000;
+    padding-top: 58px;
+}
+.social-media{
+    display: flex;
+    flex-direction: row;
+    margin-left: 22px;
+}
+.social-media img{
+    height: 40px;
+    background-color: white;
+    margin-right: 1px;
+    border-radius: 20px;
+}
+.announcement{
+    height: 430px;
+    background-color: white;
+}
+.macbook{
+    display: flex;
+    flex-direction: row;
+}
+.imgg{
+    flex-shrink: 0;
+}
+.imgg img{
+    padding: 83px 0px 0px 0px;
+    margin: 0px 0px 0px -723px;
+}
+.if-rame{
+    width: 470px;
+    height: 280px;
+    background-color: black;
+    flex-shrink: 0;
+    margin: 103px 0px 0px 439px;
+    z-index: 100;
+}
+.footer{
+    background-color: rgb(45, 59, 148);
+    height: 108px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 130px;
+}
+.left-side{
+    flex: 1;
+    padding-top: 25px;
+}
+.middle-side{
+    width: 480px;
+    margin-right: 70px;
+    text-align: center;
+    padding-top: 25px;
+}
+.right-side{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 25px;
+}
+.footer p{
+    color: white;
+}
